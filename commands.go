@@ -2,13 +2,7 @@ package main
 
 import (
 	"fmt"
-
-	"github.com/chgkunm/gatorss/internal/config"
 )
-
-type state struct {
-	cfg *config.Config
-}
 
 type command struct {
 	commandName string
